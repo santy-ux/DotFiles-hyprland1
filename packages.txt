@@ -31,3 +31,6 @@ fastfetch
 ttf-jetbrains-mono-nerd
 noto-fonts
 noto-fonts-emoji
+quickshell
+python
+jq

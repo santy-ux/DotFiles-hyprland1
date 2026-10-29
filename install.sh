@@ -13,6 +13,7 @@ grep -vE '^\s*(#|$)' "$DOTS/packages.txt" | while read -r pkg; do
   sudo pacman -S --needed --noconfirm "$pkg" || echo "   [aviso] No se pudo instalar: $pkg"
 done
 
+bash "$DOTS/install-aur.sh"
 echo "==> Respaldando configuración existente en $BACKUP"
 mkdir -p "$BACKUP" "$HOME/.config"
 for dir in "$DOTS"/config/*; do
@@ -25,6 +26,7 @@ done
 echo "==> Copiando configuración..."
 cp -r "$DOTS"/config/* "$HOME/.config/"
 
+find "$HOME/.config" -name "*.sh" -exec chmod +x {} + 2>/dev/null || true
 echo "==> Copiando wallpapers..."
 mkdir -p "$HOME/Pictures/wallpapers"
 cp -r "$DOTS"/wallpapers/. "$HOME/Pictures/wallpapers/" 2>/dev/null || true
