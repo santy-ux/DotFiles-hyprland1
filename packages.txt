@@ -1,0 +1,33 @@
+# Núcleo
+hyprland
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+polkit-gnome
+qt5-wayland
+qt6-wayland
+# Barra, lanzador, notificaciones
+waybar
+rofi
+mako
+# Fondo, bloqueo, idle
+hyprpaper
+hyprlock
+hypridle
+# Terminal y utilidades
+kitty
+nautilus
+brightnessctl
+pamixer
+pavucontrol
+playerctl
+grim
+slurp
+wl-clipboard
+cliphist
+network-manager-applet
+blueman
+fastfetch
+# Fuentes
+ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-emoji

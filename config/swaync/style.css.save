@@ -1,0 +1,42 @@
+px;
+    padding: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.notification-content {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.summary {
+    font-size: 18px;
+    font-weight: bold;
+    color: @text-color;
+}
+
+.body {
+    font-size: 15px;
+    color: @text-muted;
+    margin-top: 8px;
+}
+
+.time {
+    font-size: 12px;
+    color: @text-muted;
+    margin-right: 12px;
+}
+
+.notification-default-action,
+.notification-action {
+    border-radius: 12px;
+    color: @text-color;
+    background: #202020;
+    border: 1px solid transparent;
+}
+
+.notification-action:hover {
+    background: @bg-color;
+    border: 1px solid @accent-color;
+    color: @accent-color;
+}
