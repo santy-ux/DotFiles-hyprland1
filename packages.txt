@@ -34,3 +34,4 @@ noto-fonts-emoji
 quickshell
 python
 jq
+gnome-text-editor

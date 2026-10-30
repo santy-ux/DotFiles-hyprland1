@@ -27,6 +27,7 @@ echo "==> Copiando configuración..."
 cp -r "$DOTS"/config/* "$HOME/.config/"
 
 find "$HOME/.config" -name "*.sh" -exec chmod +x {} + 2>/dev/null || true
+for t in text/plain text/x-lua text/css application/json; do xdg-mime default org.gnome.TextEditor.desktop "$t"; done
 echo "==> Copiando wallpapers..."
 mkdir -p "$HOME/Pictures/wallpapers"
 cp -r "$DOTS"/wallpapers/. "$HOME/Pictures/wallpapers/" 2>/dev/null || true
