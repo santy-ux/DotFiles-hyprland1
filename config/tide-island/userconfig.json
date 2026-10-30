@@ -1,0 +1,16 @@
+{
+    "dynamicIslandMiddleAction": "toggleClipboard",
+    "dynamicIslandMiddleButton": 1,
+    "dynamicIslandPrimaryAction": "toggleExpandedPlayer",
+    "dynamicIslandPrimaryButton": 2,
+    "dynamicIslandSecondaryAction": "toggleControlCenter",
+    "dynamicIslandSecondaryButton": 3,
+    "islandAutoHideEnabled": false,
+    "islandBackgroundOpacity": 40,
+    "islandExclusiveZone": 30,
+    "islandHeight": 30,
+    "islandTopMargin": 4,
+    "islandWidth": 130,
+    "wallpaperLibraryPath": "",
+    "weatherLocation": ""
+}
