@@ -17,3 +17,25 @@ Después, inicia Hyprland escribiendo `Hyprland` en la TTY.
 
 ## Nota
 Revisa `config/hypr/hyprland.conf` y ajusta la línea `monitor=` a tu pantalla.
+
+## Actualizar
+
+Para recibir los cambios nuevos de los dotfiles:
+
+```bash
+cd ~/DotFiles-hyprland1
+git pull
+./install.sh
+```
+
+Tu configuración anterior queda guardada en `~/.config-backup-FECHA`, así que si cambiaste algo por tu cuenta, ahí lo puedes recuperar.
+
+Para actualizar los programas del sistema (incluye los del AUR):
+
+```bash
+yay -Syu
+```
+
+## Alerta de batería
+
+Avisa con una notificación cuando la batería baja del 20 % y no está cargando. Para cambiar el porcentaje, edita `THRESHOLD` en `~/.config/hypr/scripts/battery-alert.sh`. Para quitarla, borra la línea de `battery-alert.sh` en `~/.config/hypr/hyprland.lua`.

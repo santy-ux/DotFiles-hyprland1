@@ -35,3 +35,4 @@ quickshell
 python
 jq
 gnome-text-editor
+libnotify
