@@ -25,6 +25,7 @@ hl.on("hyprland.start", function()
 
     hl.exec_cmd("tide-island")
     hl.exec_cmd("~/.config/hypr/scripts/battery-alert.sh")
+    hl.exec_cmd("~/.config/hypr/scripts/update-check.sh")
     --hl.exec_cmd("sleep 3 && qs -p ~/.config/quickshell-marquee")
 end)
 

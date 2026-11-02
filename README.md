@@ -39,3 +39,7 @@ yay -Syu
 ## Alerta de batería
 
 Avisa con una notificación cuando la batería baja del 20 % y no está cargando. Para cambiar el porcentaje, edita `THRESHOLD` en `~/.config/hypr/scripts/battery-alert.sh`. Para quitarla, borra la línea de `battery-alert.sh` en `~/.config/hypr/hyprland.lua`.
+
+## Aviso de actualizaciones
+
+Al iniciar sesión, un script revisa si hay cambios nuevos en el repo y te avisa con una notificación. Funciona si la carpeta está en `~/DotFiles-hyprland1`. Para quitarlo, borra la línea de `update-check.sh` en `~/.config/hypr/hyprland.lua`.
