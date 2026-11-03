@@ -54,7 +54,7 @@ Escritorio sobre **Arch Linux** con **Hyprland**, configurado en Lua (`hyprland.
 - **Temas 43pr:** genera los colores de Waybar y de la pantalla de bloqueo según el fondo, con modo claro/oscuro.
 - **Pantalla de bloqueo** (hyprlock), **menú de apagado** (wlogout) y **lanzador** (rofi).
 - **Waybar** viene incluida y se muestra u oculta con `Super + Shift + W`.
-- **Alerta de batería** al bajar del 20 % y **aviso de actualizaciones** del repo al iniciar sesión.
+  
 
 ## Atajos de teclado
 
